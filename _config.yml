@@ -1,0 +1,17 @@
+# GitHub Pages (Jekyll) build config.
+#
+# This site is plain static HTML -- no layouts, no front matter, no Jekyll
+# templating. The only reason this file exists is the `exclude` list below.
+#
+# `exclude` keeps a file in the repo but out of the built site. CLAUDE.md is
+# internal working notes for AI coding assistants; this repo is public and
+# serves verisieve.com, so without this it would be published and readable at
+# https://verisieve.com/CLAUDE.md.
+#
+# NOTE: setting `exclude` REPLACES Jekyll's default exclude list rather than
+# adding to it. That default list (Gemfile, Gemfile.lock, node_modules,
+# vendor/) is irrelevant here since none of those exist in this repo, but if
+# any are ever added they must be listed explicitly below.
+exclude:
+  - CLAUDE.md
+  - README.md
